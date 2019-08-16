@@ -1,0 +1,39 @@
+/*
+
+============
+Description
+============
+
+Story
+Your online store likes to give out coupons for special occasions. Some customers try to cheat the system by entering invalid codes or using expired coupons.
+
+Task
+Your mission:
+Write a function called which verifies that a coupon code is valid, the coupon is not expired.
+
+A coupon is no more valid on the day AFTER the expiration date. All dates will be passed as strings in this format: "MONTH DATE, YEAR".
+
+Examples:
+checkCoupon("123", "123", "July 9, 2015", "July 9, 2015")  ===  true
+checkCoupon("123", "123", "July 9, 2015", "July 2, 2015")  ===  false
+
+*/
+
+function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+  
+  let userCode = enteredCode.split('');
+  let trueCode = correctCode.split('');
+  
+  for (i=0; i < userCode.length; i++) {
+    if (userCode[i] == trueCode[i]) {
+        console.log("Codigo aceptado");
+    }
+    
+    else {console.log("Codigo NO aceptado");}
+  }
+  
+  console.log(userCode);
+  
+  }
+
+  
