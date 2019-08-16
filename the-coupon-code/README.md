@@ -1,4 +1,4 @@
-#The Coupon Code
+# The Coupon Code
 
 ## Description exercise
 
