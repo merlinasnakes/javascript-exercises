@@ -1,4 +1,4 @@
-#Remove Empty Items of Array
+# Remove Empty Items of Array
 
 ## Description exercise
 
